@@ -1,10 +1,11 @@
-import WheatherApp from "./components/WheaterApp"
+import WheatherApp from './components/WheaterApp'
+import "./components/WheaterApp.css";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <WheatherApp/>
-    </>
+    <div>
+      <WheatherApp />
+    </div>
   )
 }
 

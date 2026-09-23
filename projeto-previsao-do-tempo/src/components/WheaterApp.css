@@ -18,7 +18,7 @@
   /* WEATHER APP */
   .weather-app {
     width: 35rem;
-    height: 65rem;
+    height: 57rem;
   
     background-image: linear-gradient(to top, #f3b07c, #fcd283);
   
@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
   
-    padding: 2rem;
+    padding: 4rem;
   
     box-shadow: -3rem 1rem 6rem rgba(0, 0, 0, 0.1);
   

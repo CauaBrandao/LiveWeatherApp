@@ -14,7 +14,7 @@
 }
 
 .container.cold-rainy-bg {
-  background-image: linear-gradient(to right, #2b5876, #4e4376);
+  background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 }
 
 /* WEATHER APP */
@@ -40,7 +40,7 @@
 }
 
 .weather-app.cold-rainy-bg {
-  background-image: linear-gradient(to top, #2b5876, #4e4376);
+  background-image: linear-gradient(to top, #a1c4fd, #c2e9fb);
 }
 
 /* SEARCH */

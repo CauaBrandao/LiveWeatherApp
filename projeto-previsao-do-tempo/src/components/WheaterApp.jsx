@@ -119,8 +119,8 @@ const WheatherApp = () => {
     return weatherImages[data.wheatherType] || sunny
   }
 
-  const isColdAndRainy = data && data.temperature_2m <= 15 && data.wheatherType === 'rainy'
-  const bgClass = isColdAndRainy ? 'cold-rainy-bg' : 'default-bg'
+  const isColdOrRainy = data && (data.temperature_2m <= 15 || data.wheatherType === 'rainy' || data.wheatherType === 'snowy')
+  const bgClass = isColdOrRainy ? 'cold-rainy-bg' : 'default-bg'
 
   // ELEMENTOS QUE SÃO RENDERIZADOS
   return (
